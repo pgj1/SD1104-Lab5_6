@@ -1,0 +1,26 @@
+﻿LAB 5.6: If Statement
+Lesson Time: 60 Minutes
+
+In this lesson, we are going to put everything we learned today together while practicing IF statements.
+
+Scenario:
+You work for the company World Of Beer, which makes and sells high-quality craft beer. World of Beer lets 
+customers shop online, and will ship orders directly to their customers. World of Beer won’t allow a customer 
+under 21, so they need you to implement logic that stops the customer from ordering if their profile shows they 
+are under 21.
+
+Additionally, World of Beer offers customers a premium membership for a price. If the customer has a premium membership, 
+they get special offers and discounts on orders.
+
+Your job in this lab is to use a struct to create a Customer, and then implement IF statements to check if 
+they of legal age to order and belong to membership programs.
+
+Each customer should have a first name and last name, age, and membership status.
+Create 3 customers and test all of them with IF Then Statements.
+1. Customer 1 is underage
+2. Customer 2 is legal age but not a premium member
+3. Customer 3 is legal age and a premium member
+
+Good luck!
+To view our solution, download the 5_6LabSolution from our gitHub page.
+https://github.com/ACTWebDev/SD104/blob/master/5_6LabSolution/5_6LabSolution/Program.cs
