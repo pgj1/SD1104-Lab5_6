@@ -59,10 +59,10 @@ namespace Lab5_6_if_Then
                 if (allCustomers[i].age < 21)
                     Console.WriteLine("\n" + allCustomers[i].id + " " + allCustomers[i].fname + " " + allCustomers[i].lname + " is underage and cannot place an order.");
                 else if (allCustomers[i].member == false)
-                    Console.WriteLine("\n" + allCustomers[i].id + " " + allCustomers[i].fname + " " + allCustomers[i].lname + " can place an order and pays regular price.");
+                    Console.WriteLine("\n" + allCustomers[i].id + " " + allCustomers[i].fname + " " + allCustomers[i].lname + " can place a beer order and pays regular price.");
                 else
                 {
-                    Console.WriteLine("\n" + allCustomers[i].id + " " + allCustomers[i].fname + " " + allCustomers[i].lname + " can place an order and is a premium member.");
+                    Console.WriteLine("\n" + allCustomers[i].id + " " + allCustomers[i].fname + " " + allCustomers[i].lname + " can place a beer order and is a premium member.");
                 };
 
             Console.WriteLine("\n \n **** End of Lab 5.6 **** ");
